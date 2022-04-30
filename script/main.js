@@ -61,6 +61,12 @@ form1.addEventListener("submit", (event)=>{
 
 
 
+message1.addEventListener("click",()=>{
+    alert("lo sentimos, por el momento el desarrollador no cuenta con un canal de you tube :(")
+})
+
+
+
 
 
 
