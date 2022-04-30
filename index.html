@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="./style/main.css">
+    <title>convertNumb</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+
+            <h1>convertNumb</h1>
+        </div>
+
+        <div class="BODY">
+            <form id="form1">
+                <header>FORMULARIO DE CONVERSIONES</header>
+                <label>
+                    Selecciona el sistema  del valor:
+                    <select name="valueStart" id="valueStart">
+                        <option value="o"></option>
+                        <option value="Decimal">Decimal</option>
+                        <option value="Binario">Binario</option>
+                        <option value="Hexadecimal">Hexadecimal</option>
+                    </select>
+    
+                    <input type="text" id="valueConvert" placeholder="Escribe el numero">
+                </label>
+
+
+                <label>
+                    Seleciona el sistema a convertir:
+                    <select name="valueResult" id="valueResult">
+                        <option value="0"></option>
+                        <option value="Decimal">Decimal</option>
+                        <option value="Binario">Binario</option>
+                        <option value="Hexadecimal">Hexadecimal</option>
+                    </select>
+    
+                   
+                    <input type="text" id="valueResponse" placeholder="resultado">
+                </label>
+
+
+
+                <input type="submit"  value="convertir">
+            </form>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <p>Redes sociales del desarrollador</p>
+            <ul>
+                <li> <img src="./images/youTube.svg"  alt="Account_youTube"></li>
+                <li> <img src="./images/github.svg" alt="git Hub"></li>
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="./script/main.js"></script>
+</body>
+
+</html>

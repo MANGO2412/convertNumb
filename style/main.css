@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/fondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    color: rgb(223, 221, 221);
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.header{
+    padding: 20px;
+    background-color: rgb(31 39 40);
+    color: #d0d7c1;
+}
+
+.BODY{
+    margin-top: 10px;
+    height: 300px;
+    background-color:   rgb(31 39 40);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 30px;
+}
+
+#form1{
+    border: 1px solid #dfd9d9;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+     gap: 20px; 
+    width: 500px;
+    margin: 10px auto;
+    
+}
+
+#form1 header{
+    border-bottom: 1px  solid white;
+}
+
+/* #select{
+    margin-bottom: 30px;
+} */
+
+
+.result{
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(34, 40, 51);;
+    margin-top: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.footer p{
+    font-size: 23px;
+    border-bottom: 2px solid white;
+    
+}
+
+
+.footer ul{
+    list-style: none;
+    padding: 10px;
+}
+.footer ul li{
+    border-bottom: 1px solid white;
+}
+
+#action{
+    background-color: rgb(5, 199, 233);
+    color: black;
+    border: 1px solid white;
+}
